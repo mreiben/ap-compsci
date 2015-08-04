@@ -1,0 +1,43 @@
+/**
+ * JM text p. 204 # 21
+ * @author jason
+ *
+ */
+public class PrintCheckerboard
+{
+
+  public static void printCheckerboard(int n)
+  {
+    for (int i=1; i <= n; i++)
+    {
+      int remainder;
+      for (int k = 0; k < n; k++)
+      {
+        if (k % 2 == 0)
+        {
+          remainder = 0;
+        }
+        else remainder = 1;
+        for (int j = 0; j < n; j++)
+        {
+          if (remainder == 0)
+          {
+            System.out.print("#");
+            remainder = 1;
+          }
+          else
+          {
+            System.out.print("o");
+          }
+        }
+        System.out.println();
+      }
+    }
+  }
+  public static void main(String[] args)
+  {
+    printCheckerboard(7);
+
+  }
+
+}

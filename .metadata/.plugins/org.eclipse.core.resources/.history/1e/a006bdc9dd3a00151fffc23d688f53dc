@@ -1,0 +1,25 @@
+/**
+ * Create a method that draws a triangleusing "*" symbols with a specific number
+ * of rows
+ * 
+ * @author jason
+ *
+ */
+public class Triangle
+{
+
+  public static void printTriangle(int rows)
+  {
+    for (i=1; i < rows; i++)
+    {
+      System.out.println("* " * i);
+    }
+  }
+
+  public static void main(String[] args)
+  {
+    printTriangle(5)
+
+  }
+
+}

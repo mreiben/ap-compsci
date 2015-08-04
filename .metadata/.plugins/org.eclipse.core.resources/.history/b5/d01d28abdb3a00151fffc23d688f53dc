@@ -1,0 +1,15 @@
+/**
+ * JM text p. 100, Ch07 question 6
+ * @author jason
+ *
+ */
+public class Population
+{
+
+  public static void main(String[] args)
+  {
+    // TODO Auto-generated method stub
+
+  }
+
+}

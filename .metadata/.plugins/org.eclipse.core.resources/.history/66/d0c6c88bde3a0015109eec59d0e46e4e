@@ -1,0 +1,30 @@
+// Chapter 7 Question 6 p. 200
+
+import java.util.Scanner;
+
+public class Population
+{
+  private static final double GROWTH_RATE = 1.005; // 0.5 percent growth, written as symbolic constant
+                                                   //    per year
+  private static final double POPULATION_2014 = 123.8;
+  
+  public static void main(String[] args)
+  {
+    Scanner input = new Scanner(System.in);
+    System.out.print("Target population (in million): ");
+    double target = input.nextDouble();
+    input.close();
+    
+    int year = 2014;
+    double population = POPULATION_2014;
+    
+    while (population < target)
+    {
+      population *= GROWTH_RATE;
+      year++;
+    }
+
+    System.out.println("The population will reach " + target
+         + " million in " + year);
+  }
+}

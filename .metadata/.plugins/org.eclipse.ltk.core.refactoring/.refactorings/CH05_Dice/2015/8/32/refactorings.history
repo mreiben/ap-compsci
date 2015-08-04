@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Die.java&apos; to &apos;CH06_Craps/src/(default package)&apos;&#x0A;- Original project: &apos;CH05_Dice&apos;&#x0A;- Destination element: &apos;CH06_Craps/src/(default package)&apos;&#x0A;- Original element: &apos;Die.java&apos;" description="Copy compilation unit" destination="=CH06_Craps/src&lt;" element1="/src&lt;{Die.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1438713071639" units="1" version="1.0"/>
+</session>

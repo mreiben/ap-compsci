@@ -1,0 +1,15 @@
+INDEX VERSION 1.127+/home/jason/git/ap-compsci/.metadata/.plugins/org.eclipse.jdt.core
+2159559259.index
+4218328755.index
+1262845883.index
+4228076202.index
+358676383.index
+1695154960.index
+4023104560.index
+3552557056.index
+2246044174.index
+643051409.index
+302855046.index
+1650968329.index
+2355734053.index
+2898336927.index
