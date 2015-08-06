@@ -1,0 +1,81 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+/**
+ * Practice with array lists from Ch. 11, pg 317
+ * 
+ * @author jason
+ *
+ */
+public class ArrayListDemo
+{// ArrayList can't be of primitive data types (int, double, etc)
+ // must be filled with objects
+
+  public static void main(String[] args)
+  {
+    ArrayList<String> animals = new ArrayList<String>();
+    // System.out.println(animals.size()); //0 is default size (note, not
+    // 'length')
+    // max standard size is 10
+    animals.add("toucan");
+    animals.add("magpie");
+    animals.add("dog");
+    animals.add("cat");
+    animals.add("gorilla");
+    animals.add("big foot");
+    System.out.println(animals);
+
+    // display without the brackets or commas
+    for (String elem : animals)
+      System.out.print(elem + "  ");
+    System.out.println();
+
+    for (int e = 0; e < animals.size(); e++)
+      System.out.print(animals.get(e) + "  ");
+    System.out.println();
+
+    // display backwards
+    for (int e = animals.size() - 1; e >= 0; e--)
+      System.out.print(animals.get(e) + "  ");
+    System.out.println();
+
+    // remove 'big foot'
+    animals.remove("big foot");
+    System.out.println(animals);
+
+    // add animal to start of list (or any other specific position)
+    animals.add(3, "armadillo");
+    System.out.println(animals);
+    
+    // sort
+    Collections.sort(animals);
+    System.out.println(animals);
+
+    // print all list items with string lengths greater than 3
+    for (String elem : animals)
+    {
+      if (elem.length() >=5)
+      {
+        System.out.print(elem + " ");
+      }
+    }
+    
+    // print in order of string length
+    int counter = 1;
+    for (String elem : animals)
+    {
+      if ()
+    }
+
+    // change 'dog' to 'beagle'
+    for (int i = 0; i < animals.size(); i++)
+    {
+      if (animals.get(i) == "dog")
+      {
+        animals.set(i, "doggie");
+      }
+    }
+
+  }
+
+}

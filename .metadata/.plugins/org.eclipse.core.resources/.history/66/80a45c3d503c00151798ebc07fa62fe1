@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+/**
+ * Practice with array lists from Ch. 11, pg 317
+ * @author jason
+ *
+ */
+public class ArrayListDemo
+{//ArrayList can't be of primitive data types (int, double, etc)
+  //must be filled with objects
+
+  public static void main(String[] args)
+  {
+    ArrayList<String> animals = new ArrayList<String>();
+    //System.out.println(animals.size()); //0 is default size (note, not 'length')
+                                         // max standard size is 10
+    animals.add("toucan");
+    animals.add("magpie");
+    animals.add("dog");
+    animals.add("cat");
+    animals.add("gorilla");
+    animals.add("big foot");
+    System.out.println(animals);
+
+  }
+
+}

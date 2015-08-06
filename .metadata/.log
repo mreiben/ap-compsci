@@ -352,3 +352,13 @@ Java Model Exception: Java Model Status [<project root> [in CH06_Craps] is not o
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2015-08-04 14:22:24.654
 !MESSAGE <project root> [in CH06_Craps] is not on its project's build path
+!SESSION 2015-08-05 18:08:13.231 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jdt.core 4 0 2015-08-06 10:31:49.113
+!MESSAGE Invalid ZIP archive: /home/jason/Dropbox/Teaching Documents/APCS_Skylit_Files/StudentFiles/Ch09/Chomp/chomp.wav

@@ -1,0 +1,24 @@
+/**
+ * Practice using arrays
+ * @author jason
+ *
+ */
+public class ArrayDemo
+{
+
+  public static void main(String[] args)
+  {
+    int[] nums = new int[10];
+    System.out.println(nums[1]);
+    
+    double[] nums2 = new double[10];
+    System.out.println(nums2[1]);
+    
+    String[] words = new String[10];
+    System.out.println(words[1]);
+
+    boolean[] flags = new boolean[10];
+    System.out.println(flags[1]);
+  }
+
+}

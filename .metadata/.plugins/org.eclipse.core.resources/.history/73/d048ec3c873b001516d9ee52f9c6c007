@@ -1,0 +1,24 @@
+/**
+ * Practice using arrays
+ * @author jason
+ *
+ */
+public class ArrayDemo
+{
+
+  public static void main(String[] args)
+  {
+    int[] nums = new int[10];
+    System.out.println(nums[1]); //local variable array of int initialzed to 0 when undefined
+    
+    double[] nums2 = new double[10];
+    System.out.println(nums2[1]); //local variable array of double initialized to 0.0 when undefined
+    
+    String[] words = new String[10]; //local variable array of Strings initialized to null when undefined
+    System.out.println(words[1]);
+
+    boolean[] flags = new boolean[10]; //local variable array of booleans initialized to false when undefined
+    System.out.println(flags[1]);
+  }
+
+}

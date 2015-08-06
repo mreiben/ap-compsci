@@ -1,3 +1,4 @@
+
 // Statistical simulation of craps
 
 import java.awt.Container;
@@ -8,8 +9,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-public class CrapsStats extends JFrame
-    implements ActionListener
+public class CrapsStats extends JFrame implements ActionListener
 {
   private CrapsGame game;
   private JTextField numberIn, statsOut;
@@ -68,4 +68,3 @@ public class CrapsStats extends JFrame
     window.setVisible(true);
   }
 }
-

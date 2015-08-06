@@ -1,3 +1,4 @@
+
 // Interactive test for Craps
 
 import java.awt.Color;
@@ -12,8 +13,7 @@ import javax.swing.JTextArea;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
 
-public class CrapsTest1 extends JFrame
-    implements ActionListener
+public class CrapsTest1 extends JFrame implements ActionListener
 {
   private CrapsGame game;
   private JTextField input;
@@ -36,9 +36,8 @@ public class CrapsTest1 extends JFrame
     display = new JTextArea(10, 20);
     display.setEditable(false);
     display.setBackground(Color.WHITE);
-    c.add(new JScrollPane(display,
-              ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
-              ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER));
+    c.add(new JScrollPane(display, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS,
+        ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER));
 
     game = new CrapsGame();
   }
@@ -64,4 +63,3 @@ public class CrapsTest1 extends JFrame
     window.setVisible(true);
   }
 }
-

@@ -1,0 +1,16 @@
+/**
+ * Practice using arrays
+ * @author jason
+ *
+ */
+public class ArrayDemo
+{
+
+  public static void main(String[] args)
+  {
+    int[] nums = new int[10];
+    System.out.print(nums);
+
+  }
+
+}

@@ -6,11 +6,17 @@
  */
 public class Circle
 {
+  //Static field (aka "class variable", all members of the class have this static value)
+  private static int nextId = 1;
+  
+  //Instance variables: (aka non-static field, each member can have different values)
   private int radius;
+  private int id;
 
   public Circle(int r)
   {
     radius = r;
+    nextId++;
   }
 
   public int getRadius()
@@ -25,6 +31,6 @@ public class Circle
 
   public String toString() // this method is already part of the Object class
   {
-    return "Circle: radius=" + radius;
+    return "Circle: radius=" + radius + ", id=" + id;
   }
 }

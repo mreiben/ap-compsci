@@ -1,3 +1,4 @@
+
 // JM text p. 129Chapter 5 Question 21
 
 import java.awt.Color;
@@ -14,8 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import java.text.DecimalFormat;
 
-public class Bmi extends JFrame
-  implements ActionListener
+public class Bmi extends JFrame implements ActionListener
 {
   JTextField inputLbs, inputInches, displayBmi;
 
@@ -72,4 +72,3 @@ public class Bmi extends JFrame
     w.setVisible(true);
   }
 }
-

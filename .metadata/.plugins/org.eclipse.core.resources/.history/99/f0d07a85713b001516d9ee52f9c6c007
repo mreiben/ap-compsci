@@ -1,0 +1,23 @@
+/**
+ * Project Euler problem #1 - sum multiples of 3 and 5 from 1 to 1000
+ * @author jason
+ *
+ */
+public class CountThreeFive
+{
+
+  int sum;
+  public static void main(String[] args)
+  {
+    for (int i = 1; i <= 1000; i++)
+    {
+      if(i % 3 == 0 || i % 5 == 0)
+      {
+        sum += i;
+      }
+    }
+    System.out.println("The sum is: " + sum);
+
+  }
+
+}

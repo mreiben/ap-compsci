@@ -1,0 +1,25 @@
+/**
+ * Represents a die, 6-sided is the default
+ * @author jason
+ *
+ */
+public class Die
+{
+  private int sides;
+  
+  public Die() //a no-args constructor
+  {
+    sides = 6;
+  }
+  
+  public Die(int s) //a constructor with one argument
+  {
+    sides = s;
+  }
+  
+  public int getNumDots()
+  {
+    return (int)(Math.random()*sides + 1);
+  }
+
+}
