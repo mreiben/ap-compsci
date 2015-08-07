@@ -65,11 +65,7 @@ public class CharMatrix
    */
   public boolean isEmpty(int row, int col)
   {
-    if (grid[row][col] == SPACE)
-    {
-      return true;
-    }
-    return false;
+    return grid[row][col] == SPACE;
   }
 
   /**
@@ -94,13 +90,7 @@ public class CharMatrix
    */
   public void clearRect(int row0, int col0, int row1, int col1)
   {
-    for (int r = row0; r <= row1; r++)
-    {
-      for (int c = col0; c <= col1; c++)
-      {
-        grid[r][c] = SPACE;
-      }
-    }
+    fillRect(row0, col0, row1, col1, SPACE);
   }
 
   /**

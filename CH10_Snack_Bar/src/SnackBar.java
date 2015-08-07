@@ -75,10 +75,15 @@ public class SnackBar extends JFrame
     password.setText("");
     if (MY_PASSWORD.equals(word))
     {
+      // Added for Section 10.12 Lab:
+      double amt = Vendor.getTotalSales();
+
       for (VendingMachine machine : machines)
         machine.reload();
         
       JOptionPane.showMessageDialog(null,
+        // Added for Section 10.12 Lab:
+        String.format("Total sales: $%.2f\n", amt) + 
         "Machines reloaded",
         "Service", JOptionPane.INFORMATION_MESSAGE);
     }

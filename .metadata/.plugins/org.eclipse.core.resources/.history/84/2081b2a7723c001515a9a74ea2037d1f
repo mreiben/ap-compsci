@@ -1,0 +1,16 @@
+
+public class Cat extends Pet
+{
+  private String name;
+  
+  public Cat(String petName)
+  {
+    name = petName;
+  }
+  
+  public String speak()
+  {
+    return "meow";
+  }
+
+}

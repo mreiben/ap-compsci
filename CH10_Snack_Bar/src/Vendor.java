@@ -4,11 +4,18 @@
  */
 public class Vendor
 {
+  //Static Fields
+  private static double totalSales = 0.0; //optional
+  
   // Fields:(instance variables)
   private int stock, price, deposit, change;
   
-  //Static Fields
-  private static double totalSales = 0.0;
+  public static double getTotalSales()
+  {
+    double temp = totalSales;
+    totalSales = 0.0;
+    return temp;
+  }
 
   /**
    * Constructs a Vendor
@@ -71,12 +78,18 @@ public class Vendor
    */
   public boolean makeSale()
   {
-    if (stock > 0 && (deposit >= price))
+    if (stock > 0 && deposit >= price)
     {
       stock--;
       change = deposit - price;
       deposit = 0;
+      totalSales += price*0.01;
       return true;
+    }
+    else
+    {
+      change = deposit;
+      deposit = 0;
     }
     return false;
   }

@@ -1,0 +1,16 @@
+/**
+ * Sample free response question AP Book pg 48
+ * @author jason
+ *
+ */
+public class Pet
+{
+  private String name;
+  
+  public String getName()
+  {
+    return name;
+  }
+  
+  public abstract String speak();
+}

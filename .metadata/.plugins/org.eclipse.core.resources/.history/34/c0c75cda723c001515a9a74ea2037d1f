@@ -1,0 +1,15 @@
+
+public class Dog extends Pet
+{
+  
+  public Cat(String petName)
+  {
+    super(petName);
+  }
+  
+  public String speak()
+  {
+    return "arf";
+  }
+
+}

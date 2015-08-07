@@ -1,0 +1,15 @@
+
+public class LoudDog extends Pet
+{
+  
+  public LoudDog(String petName)
+  {
+    super(petName);
+  }
+  
+  public String speak()
+  {
+    return "what?";
+  }
+
+}
